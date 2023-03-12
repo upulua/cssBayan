@@ -37,6 +37,7 @@ img {
 .tabs {
     border-radius: 8px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .tab {
@@ -66,7 +67,7 @@ input:checked+.tab-label {
     width: 1em;
     height: 1em;
     text-align: center;
-    transition: all .35s;
+    transition: all .45s;
     color: #402f01;
 }
 
@@ -83,14 +84,14 @@ input:checked+.tab-label {
     padding: 0 1em;
     color: #2c3e50;
     background: blanchedalmond;
-    transition: all .35s;
+    transition: all .45s;
     display: flex;
     justify-content: center;
 }
 
 input:checked+.tab-label::after {
     transform: rotate(45deg);
-    transition: .35s;
+    transition: .45s;
 }
 
 input:checked~.tab-content {
